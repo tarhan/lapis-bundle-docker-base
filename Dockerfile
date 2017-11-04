@@ -1,0 +1,2 @@
+FROM tarhan/lapis:latest
+

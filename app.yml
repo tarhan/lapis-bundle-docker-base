@@ -1,0 +1,14 @@
+name: "yourproject"
+
+dependencies:
+  alpine:
+    runtime:
+      - openssl
+      - libstdc++
+    buildtime:
+      - openssl-dev
+  luarocks:
+    - luasec
+    - penlight
+    - rapidjson
+    - luacrypto
